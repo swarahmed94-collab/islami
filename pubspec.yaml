@@ -1,0 +1,39 @@
+name: islami
+description: Islami local-first Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: false
+
+  assets:
+    - assets/Fonts/
+    - assets/PNG Images/
+    - assets/SVG Images/
+    - assets/Suras/
+    - assets/Hadeeth/
+    - assets/Suras List.txt
+    - assets/azkar.json
+
+  fonts:
+    - family: JannaLT
+      fonts:
+        - asset: assets/Fonts/Janna LT Bold.ttf
+          weight: 700
+    - family: Kamali
+      fonts:
+        - asset: assets/Fonts/KamaliRegular-pg81r.ttf
+          weight: 400
